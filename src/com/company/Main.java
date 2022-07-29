@@ -30,11 +30,11 @@ public class Main {
                 if (secondNumber!=0) {
                     System.out.println("The result is: " + ((float) firstNumber / secondNumber));
                 } else{
-                    System.out.println("!!! ERROR !!! Division by zero!!!!");
+                    System.out.println("!!! ERROR !!! Division by zero !!!!");
                 }
                 break;
             default:
-                System.out.println("Нou entered an incorrect math operand!");
+                System.out.println("You entered an incorrect math operand!");
         }
     }
 }
