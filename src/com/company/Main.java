@@ -27,7 +27,11 @@ public class Main {
                 System.out.println("The result is: " + (firstNumber * secondNumber));
                 break;
             case "/":
-                System.out.println("The result is: " + ((float) firstNumber / secondNumber));
+                if (secondNumber!=0) {
+                    System.out.println("The result is: " + ((float) firstNumber / secondNumber));
+                } else{
+                    System.out.println("!!! ERROR !!! Division by zero!!!!");
+                }
                 break;
             default:
                 System.out.println("Нou entered an incorrect math operand!");
